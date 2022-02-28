@@ -117,4 +117,9 @@ func hurt():
 		change_state(HURT)
 
 func _on_Timer_timeout():
-	get_tree().change_scene("res://Scenes/Level1.tscn")
+	get_tree().change_scene("res://Scenes/gamescene.tscn")
+
+
+
+func _on_Sprite_animation_finished():
+	pass # Replace with function body.
