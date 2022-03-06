@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Minecraft TNT Explosion.mp3-07c7a592decfda6229ae94a1bc9f7601.mp3str"
+
+[deps]
+
+source_file="res://Explosions/Minecraft TNT Explosion.mp3"
+dest_files=[ "res://.import/Minecraft TNT Explosion.mp3-07c7a592decfda6229ae94a1bc9f7601.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
