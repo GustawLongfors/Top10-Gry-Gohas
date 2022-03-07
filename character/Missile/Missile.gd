@@ -13,9 +13,6 @@ func start(pos, dir):
 	position = pos
 	rotation = dir
 	velocity = Vector2(run_speed, 0)	
-
-func _ready():
-	#$WindupExploSound.playing()
 	change_state(RUN)
 
 func _physics_process(delta):
@@ -46,12 +43,11 @@ func change_state(new_state):
 			$ExplosionParticles.visible = true
 			$ExplosionParticles.emitting = true
 			$ExplosionRadius/ExplCollisionShape2D.disabled = false
-			queue_free()
+			$DelayTimer.start()
 
 func Explode():
-	if state != EXPLODE:
-		$WindupExploSound.stop()
-		change_state(EXPLODE)
+	$WindupExploSound.stop()
+	change_state(EXPLODE)
 
 func _on_Timer_timeout():
 	Explode()
@@ -59,3 +55,6 @@ func _on_Timer_timeout():
 func _on_ExplosionRadius_body_entered(body):
 	if body.has_method('take_damage'):
 		body.take_damage()
+		
+func _on_DelayTimer_timeout():
+	queue_free()
