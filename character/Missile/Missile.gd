@@ -1,6 +1,7 @@
 extends KinematicBody2D
 
 export (int) var gravity = -150
+var run_speed = 250
 
 enum {IDLE, RUN, EXPLODE}
 var state
@@ -8,8 +9,14 @@ var anim
 var new_anim
 var velocity = Vector2()
 
+func start(pos, dir):
+	position = pos
+	rotation = dir
+	velocity = Vector2(run_speed, 0)	
+
 func _ready():
-	$WindupExploSound.playing
+	#$WindupExploSound.playing()
+	change_state(RUN)
 
 func _physics_process(delta):
 	if state != EXPLODE:
@@ -23,6 +30,7 @@ func _physics_process(delta):
 		var collision = get_slide_collision(idx)
 		if collision.collider.name == 'Danger':
 			Explode()
+			
 func change_state(new_state):
 	state = new_state
 	match state:
@@ -38,6 +46,7 @@ func change_state(new_state):
 			$ExplosionParticles.visible = true
 			$ExplosionParticles.emitting = true
 			$ExplosionRadius/ExplCollisionShape2D.disabled = false
+			queue_free()
 
 func Explode():
 	if state != EXPLODE:
@@ -45,7 +54,7 @@ func Explode():
 		change_state(EXPLODE)
 
 func _on_Timer_timeout():
-	change_state(EXPLODE)
+	Explode()
 
 func _on_ExplosionRadius_body_entered(body):
 	if body.has_method('take_damage'):
