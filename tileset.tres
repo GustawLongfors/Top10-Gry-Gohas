@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=84 format=2]
+[gd_resource type="TileSet" load_steps=249 format=2]
 
 [ext_resource path="res://assets/1 Tiles/IndustrialTile_35.png" type="Texture" id=1]
 [ext_resource path="res://assets/1 Tiles/IndustrialTile_02.png" type="Texture" id=2]
@@ -82,11 +82,506 @@
 [ext_resource path="res://assets/1 Tiles/IndustrialTile_30.png" type="Texture" id=80]
 [ext_resource path="res://assets/1 Tiles/IndustrialTile_28.png" type="Texture" id=81]
 
+[sub_resource type="OccluderPolygon2D" id=24]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 32, 32 )
 
+[sub_resource type="ConvexPolygonShape2D" id=25]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=4]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=26]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=27]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=28]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=29]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=30]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=31]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=32]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=33]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=34]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=35]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=36]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=37]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=38]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=39]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=40]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
 [sub_resource type="RectangleShape2D" id=3]
 extents = Vector2( 16.1333, 8.1 )
+
+[sub_resource type="ConvexPolygonShape2D" id=41]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=42]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=43]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=44]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=45]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=6]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=46]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=47]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=48]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=49]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=50]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=51]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=52]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=53]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=54]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=55]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=56]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=57]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=58]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=59]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=60]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=61]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=62]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=63]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=64]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=65]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=8]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=66]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=67]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=68]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=69]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=70]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=71]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=72]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=73]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=74]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=75]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=76]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=77]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=78]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=79]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=80]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=81]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=82]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=83]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=84]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=85]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=10]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=11]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=86]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=87]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=88]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=89]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=90]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=91]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=92]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=93]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=94]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=95]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=96]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=97]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=98]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=99]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=100]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=101]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=102]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=103]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=104]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=105]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=12]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=13]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=106]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=107]
+points = PoolVector2Array( 32, 0, 0, 0, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=108]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=109]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=110]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=111]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=112]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=113]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=114]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=115]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=116]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=117]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=118]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=119]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=120]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=121]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=122]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=123]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=124]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=125]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=126]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=14]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=15]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=127]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=128]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=129]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=130]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=131]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=132]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=133]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=134]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=135]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=136]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=137]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=138]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=139]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=140]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=141]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=142]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=143]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=144]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=145]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=146]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=16]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=17]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=147]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=148]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=149]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=150]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=151]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=152]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=153]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=154]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=155]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=156]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=157]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=158]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=159]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=160]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=161]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=162]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=163]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=164]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=165]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=166]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=18]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=19]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=167]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=168]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=20]
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=21]
+points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[sub_resource type="OccluderPolygon2D" id=22]
+polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=23]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
 
 [resource]
 0/name = "IndustrialTile01"
@@ -96,6 +591,7 @@ extents = Vector2( 16.1333, 8.1 )
 0/region = Rect2( 0, 0, 32, 32 )
 0/tile_mode = 0
 0/occluder_offset = Vector2( 16, 16 )
+0/occluder = SubResource( 24 )
 0/navigation_offset = Vector2( 16, 16 )
 0/shape_offset = Vector2( 16, 16 )
 0/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -108,6 +604,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 25 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 0/z_index = 0
 1/name = "IndustrialTile02"
@@ -117,6 +619,7 @@ extents = Vector2( 16.1333, 8.1 )
 1/region = Rect2( 0, 0, 32, 32 )
 1/tile_mode = 0
 1/occluder_offset = Vector2( 16, 16 )
+1/occluder = SubResource( 4 )
 1/navigation_offset = Vector2( 16, 16 )
 1/shape_offset = Vector2( 16, 16 )
 1/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -129,6 +632,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 1/z_index = 0
 2/name = "IndustrialTile03"
@@ -138,6 +647,7 @@ extents = Vector2( 16.1333, 8.1 )
 2/region = Rect2( 0, 0, 32, 32 )
 2/tile_mode = 0
 2/occluder_offset = Vector2( 16, 16 )
+2/occluder = SubResource( 6 )
 2/navigation_offset = Vector2( 16, 16 )
 2/shape_offset = Vector2( 16, 16 )
 2/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -150,6 +660,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 2/z_index = 0
 3/name = "IndustrialTile04"
@@ -159,6 +675,7 @@ extents = Vector2( 16.1333, 8.1 )
 3/region = Rect2( 0, 0, 32, 32 )
 3/tile_mode = 0
 3/occluder_offset = Vector2( 16, 16 )
+3/occluder = SubResource( 8 )
 3/navigation_offset = Vector2( 16, 16 )
 3/shape_offset = Vector2( 16, 16 )
 3/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -171,6 +688,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 3/z_index = 0
 4/name = "IndustrialTile05"
@@ -180,6 +703,7 @@ extents = Vector2( 16.1333, 8.1 )
 4/region = Rect2( 0, 0, 32, 32 )
 4/tile_mode = 0
 4/occluder_offset = Vector2( 16, 16 )
+4/occluder = SubResource( 10 )
 4/navigation_offset = Vector2( 16, 16 )
 4/shape_offset = Vector2( 16, 16 )
 4/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -192,6 +716,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 4/z_index = 0
 5/name = "IndustrialTile06"
@@ -201,6 +731,7 @@ extents = Vector2( 16.1333, 8.1 )
 5/region = Rect2( 0, 0, 32, 32 )
 5/tile_mode = 0
 5/occluder_offset = Vector2( 16, 16 )
+5/occluder = SubResource( 12 )
 5/navigation_offset = Vector2( 16, 16 )
 5/shape_offset = Vector2( 16, 16 )
 5/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -213,6 +744,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 13 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 5/z_index = 0
 6/name = "IndustrialTile07"
@@ -222,6 +759,7 @@ extents = Vector2( 16.1333, 8.1 )
 6/region = Rect2( 0, 0, 32, 32 )
 6/tile_mode = 0
 6/occluder_offset = Vector2( 16, 16 )
+6/occluder = SubResource( 14 )
 6/navigation_offset = Vector2( 16, 16 )
 6/shape_offset = Vector2( 16, 16 )
 6/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -234,6 +772,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 15 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 6/z_index = 0
 7/name = "IndustrialTile08"
@@ -243,6 +787,7 @@ extents = Vector2( 16.1333, 8.1 )
 7/region = Rect2( 0, 0, 32, 32 )
 7/tile_mode = 0
 7/occluder_offset = Vector2( 16, 16 )
+7/occluder = SubResource( 16 )
 7/navigation_offset = Vector2( 16, 16 )
 7/shape_offset = Vector2( 16, 16 )
 7/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -255,6 +800,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 17 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 7/z_index = 0
 8/name = "IndustrialTile09"
@@ -264,6 +815,7 @@ extents = Vector2( 16.1333, 8.1 )
 8/region = Rect2( 0, 0, 32, 32 )
 8/tile_mode = 0
 8/occluder_offset = Vector2( 16, 16 )
+8/occluder = SubResource( 18 )
 8/navigation_offset = Vector2( 16, 16 )
 8/shape_offset = Vector2( 16, 16 )
 8/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -276,6 +828,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 19 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 8/z_index = 0
 9/name = "IndustrialTile10"
@@ -285,6 +843,7 @@ extents = Vector2( 16.1333, 8.1 )
 9/region = Rect2( 0, 0, 32, 32 )
 9/tile_mode = 0
 9/occluder_offset = Vector2( 16, 16 )
+9/occluder = SubResource( 22 )
 9/navigation_offset = Vector2( 16, 16 )
 9/shape_offset = Vector2( 16, 16 )
 9/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -297,6 +856,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 23 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 9/z_index = 0
 10/name = "IndustrialTile11"
@@ -306,6 +871,7 @@ extents = Vector2( 16.1333, 8.1 )
 10/region = Rect2( 0, 0, 32, 32 )
 10/tile_mode = 0
 10/occluder_offset = Vector2( 16, 16 )
+10/occluder = SubResource( 26 )
 10/navigation_offset = Vector2( 16, 16 )
 10/shape_offset = Vector2( 16, 16 )
 10/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -318,6 +884,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 27 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 10/z_index = 0
 11/name = "IndustrialTile12"
@@ -327,6 +899,7 @@ extents = Vector2( 16.1333, 8.1 )
 11/region = Rect2( 0, 0, 32, 32 )
 11/tile_mode = 0
 11/occluder_offset = Vector2( 16, 16 )
+11/occluder = SubResource( 28 )
 11/navigation_offset = Vector2( 16, 16 )
 11/shape_offset = Vector2( 16, 16 )
 11/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -339,6 +912,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 29 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 11/z_index = 0
 12/name = "IndustrialTile13"
@@ -348,6 +927,7 @@ extents = Vector2( 16.1333, 8.1 )
 12/region = Rect2( 0, 0, 32, 32 )
 12/tile_mode = 0
 12/occluder_offset = Vector2( 16, 16 )
+12/occluder = SubResource( 30 )
 12/navigation_offset = Vector2( 16, 16 )
 12/shape_offset = Vector2( 16, 16 )
 12/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -360,6 +940,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 31 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 12/z_index = 0
 13/name = "IndustrialTile14"
@@ -369,6 +955,7 @@ extents = Vector2( 16.1333, 8.1 )
 13/region = Rect2( 0, 0, 32, 32 )
 13/tile_mode = 0
 13/occluder_offset = Vector2( 16, 16 )
+13/occluder = SubResource( 32 )
 13/navigation_offset = Vector2( 16, 16 )
 13/shape_offset = Vector2( 16, 16 )
 13/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -381,6 +968,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 33 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 13/z_index = 0
 14/name = "IndustrialTile15"
@@ -390,6 +983,7 @@ extents = Vector2( 16.1333, 8.1 )
 14/region = Rect2( 0, 0, 32, 32 )
 14/tile_mode = 0
 14/occluder_offset = Vector2( 16, 16 )
+14/occluder = SubResource( 34 )
 14/navigation_offset = Vector2( 16, 16 )
 14/shape_offset = Vector2( 16, 16 )
 14/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -402,6 +996,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 35 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 14/z_index = 0
 15/name = "IndustrialTile16"
@@ -411,6 +1011,7 @@ extents = Vector2( 16.1333, 8.1 )
 15/region = Rect2( 0, 0, 32, 32 )
 15/tile_mode = 0
 15/occluder_offset = Vector2( 16, 16 )
+15/occluder = SubResource( 36 )
 15/navigation_offset = Vector2( 16, 16 )
 15/shape_offset = Vector2( 16, 16 )
 15/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -423,6 +1024,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 37 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 15/z_index = 0
 16/name = "IndustrialTile17"
@@ -432,6 +1039,7 @@ extents = Vector2( 16.1333, 8.1 )
 16/region = Rect2( 0, 0, 32, 32 )
 16/tile_mode = 0
 16/occluder_offset = Vector2( 16, 16 )
+16/occluder = SubResource( 38 )
 16/navigation_offset = Vector2( 16, 16 )
 16/shape_offset = Vector2( 16, 16 )
 16/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -444,6 +1052,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 39 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 16/z_index = 0
 17/name = "IndustrialTile18"
@@ -453,6 +1067,7 @@ extents = Vector2( 16.1333, 8.1 )
 17/region = Rect2( 0, 0, 32, 32 )
 17/tile_mode = 0
 17/occluder_offset = Vector2( 16, 16 )
+17/occluder = SubResource( 40 )
 17/navigation_offset = Vector2( 16, 16 )
 17/shape_offset = Vector2( 16, 8 )
 17/shape_transform = Transform2D( 1, 0, 0, 1, 16, 8 )
@@ -465,6 +1080,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 16, 8 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 41 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 17/z_index = 0
 18/name = "IndustrialTile19"
@@ -474,6 +1095,7 @@ extents = Vector2( 16.1333, 8.1 )
 18/region = Rect2( 0, 0, 32, 32 )
 18/tile_mode = 0
 18/occluder_offset = Vector2( 16, 16 )
+18/occluder = SubResource( 42 )
 18/navigation_offset = Vector2( 16, 16 )
 18/shape_offset = Vector2( 16, 16 )
 18/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -486,6 +1108,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 43 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 18/z_index = 0
 19/name = "IndustrialTile20"
@@ -495,6 +1123,7 @@ extents = Vector2( 16.1333, 8.1 )
 19/region = Rect2( 0, 0, 32, 32 )
 19/tile_mode = 0
 19/occluder_offset = Vector2( 16, 16 )
+19/occluder = SubResource( 44 )
 19/navigation_offset = Vector2( 16, 16 )
 19/shape_offset = Vector2( 16, 16 )
 19/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -507,6 +1136,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 45 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 19/z_index = 0
 20/name = "IndustrialTile21"
@@ -516,6 +1151,7 @@ extents = Vector2( 16.1333, 8.1 )
 20/region = Rect2( 0, 0, 32, 32 )
 20/tile_mode = 0
 20/occluder_offset = Vector2( 16, 16 )
+20/occluder = SubResource( 46 )
 20/navigation_offset = Vector2( 16, 16 )
 20/shape_offset = Vector2( 16, 16 )
 20/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -528,6 +1164,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 47 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 20/z_index = 0
 21/name = "IndustrialTile22"
@@ -537,6 +1179,7 @@ extents = Vector2( 16.1333, 8.1 )
 21/region = Rect2( 0, 0, 32, 32 )
 21/tile_mode = 0
 21/occluder_offset = Vector2( 16, 16 )
+21/occluder = SubResource( 48 )
 21/navigation_offset = Vector2( 16, 16 )
 21/shape_offset = Vector2( 16, 16 )
 21/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -549,6 +1192,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 49 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 21/z_index = 0
 22/name = "IndustrialTile23"
@@ -558,6 +1207,7 @@ extents = Vector2( 16.1333, 8.1 )
 22/region = Rect2( 0, 0, 32, 32 )
 22/tile_mode = 0
 22/occluder_offset = Vector2( 16, 16 )
+22/occluder = SubResource( 50 )
 22/navigation_offset = Vector2( 16, 16 )
 22/shape_offset = Vector2( 16, 16 )
 22/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -570,6 +1220,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 51 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 22/z_index = 0
 23/name = "IndustrialTile24"
@@ -579,6 +1235,7 @@ extents = Vector2( 16.1333, 8.1 )
 23/region = Rect2( 0, 0, 32, 32 )
 23/tile_mode = 0
 23/occluder_offset = Vector2( 16, 16 )
+23/occluder = SubResource( 52 )
 23/navigation_offset = Vector2( 16, 16 )
 23/shape_offset = Vector2( 16, 16 )
 23/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -591,6 +1248,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 53 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 23/z_index = 0
 24/name = "IndustrialTile25"
@@ -600,6 +1263,7 @@ extents = Vector2( 16.1333, 8.1 )
 24/region = Rect2( 0, 0, 32, 32 )
 24/tile_mode = 0
 24/occluder_offset = Vector2( 16, 16 )
+24/occluder = SubResource( 54 )
 24/navigation_offset = Vector2( 16, 16 )
 24/shape_offset = Vector2( 16, 16 )
 24/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -612,6 +1276,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 55 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 24/z_index = 0
 25/name = "IndustrialTile26"
@@ -621,6 +1291,7 @@ extents = Vector2( 16.1333, 8.1 )
 25/region = Rect2( 0, 0, 32, 32 )
 25/tile_mode = 0
 25/occluder_offset = Vector2( 16, 16 )
+25/occluder = SubResource( 56 )
 25/navigation_offset = Vector2( 16, 16 )
 25/shape_offset = Vector2( 16, 16 )
 25/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -633,6 +1304,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 57 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 25/z_index = 0
 26/name = "IndustrialTile27"
@@ -642,6 +1319,7 @@ extents = Vector2( 16.1333, 8.1 )
 26/region = Rect2( 0, 0, 32, 32 )
 26/tile_mode = 0
 26/occluder_offset = Vector2( 16, 16 )
+26/occluder = SubResource( 58 )
 26/navigation_offset = Vector2( 16, 16 )
 26/shape_offset = Vector2( 16, 16 )
 26/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -654,6 +1332,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 59 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 26/z_index = 0
 27/name = "IndustrialTile28"
@@ -663,6 +1347,7 @@ extents = Vector2( 16.1333, 8.1 )
 27/region = Rect2( 0, 0, 32, 32 )
 27/tile_mode = 0
 27/occluder_offset = Vector2( 16, 16 )
+27/occluder = SubResource( 60 )
 27/navigation_offset = Vector2( 16, 16 )
 27/shape_offset = Vector2( 16, 16 )
 27/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -675,6 +1360,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 61 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 27/z_index = 0
 28/name = "IndustrialTile29"
@@ -684,6 +1375,7 @@ extents = Vector2( 16.1333, 8.1 )
 28/region = Rect2( 0, 0, 32, 32 )
 28/tile_mode = 0
 28/occluder_offset = Vector2( 16, 16 )
+28/occluder = SubResource( 62 )
 28/navigation_offset = Vector2( 16, 16 )
 28/shape_offset = Vector2( 16, 16 )
 28/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -696,6 +1388,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 63 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 28/z_index = 0
 29/name = "IndustrialTile30"
@@ -705,6 +1403,7 @@ extents = Vector2( 16.1333, 8.1 )
 29/region = Rect2( 0, 0, 32, 32 )
 29/tile_mode = 0
 29/occluder_offset = Vector2( 16, 16 )
+29/occluder = SubResource( 64 )
 29/navigation_offset = Vector2( 16, 16 )
 29/shape_offset = Vector2( 16, 16 )
 29/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -717,6 +1416,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 65 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 29/z_index = 0
 30/name = "IndustrialTile31"
@@ -726,6 +1431,7 @@ extents = Vector2( 16.1333, 8.1 )
 30/region = Rect2( 0, 0, 32, 32 )
 30/tile_mode = 0
 30/occluder_offset = Vector2( 16, 16 )
+30/occluder = SubResource( 66 )
 30/navigation_offset = Vector2( 16, 16 )
 30/shape_offset = Vector2( 16, 16 )
 30/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -738,6 +1444,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 67 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 30/z_index = 0
 31/name = "IndustrialTile32"
@@ -747,6 +1459,7 @@ extents = Vector2( 16.1333, 8.1 )
 31/region = Rect2( 0, 0, 32, 32 )
 31/tile_mode = 0
 31/occluder_offset = Vector2( 16, 16 )
+31/occluder = SubResource( 68 )
 31/navigation_offset = Vector2( 16, 16 )
 31/shape_offset = Vector2( 16, 16 )
 31/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -759,6 +1472,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 69 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 31/z_index = 0
 32/name = "IndustrialTile33"
@@ -768,6 +1487,7 @@ extents = Vector2( 16.1333, 8.1 )
 32/region = Rect2( 0, 0, 32, 32 )
 32/tile_mode = 0
 32/occluder_offset = Vector2( 16, 16 )
+32/occluder = SubResource( 70 )
 32/navigation_offset = Vector2( 16, 16 )
 32/shape_offset = Vector2( 16, 16 )
 32/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -780,6 +1500,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 71 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 32/z_index = 0
 33/name = "IndustrialTile34"
@@ -789,6 +1515,7 @@ extents = Vector2( 16.1333, 8.1 )
 33/region = Rect2( 0, 0, 32, 32 )
 33/tile_mode = 0
 33/occluder_offset = Vector2( 16, 16 )
+33/occluder = SubResource( 72 )
 33/navigation_offset = Vector2( 16, 16 )
 33/shape_offset = Vector2( 16, 16 )
 33/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -801,6 +1528,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 73 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 33/z_index = 0
 34/name = "IndustrialTile35"
@@ -810,6 +1543,7 @@ extents = Vector2( 16.1333, 8.1 )
 34/region = Rect2( 0, 0, 32, 32 )
 34/tile_mode = 0
 34/occluder_offset = Vector2( 16, 16 )
+34/occluder = SubResource( 74 )
 34/navigation_offset = Vector2( 16, 16 )
 34/shape_offset = Vector2( 16, 16 )
 34/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -822,6 +1556,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 75 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 34/z_index = 0
 35/name = "IndustrialTile36"
@@ -831,6 +1571,7 @@ extents = Vector2( 16.1333, 8.1 )
 35/region = Rect2( 0, 0, 32, 32 )
 35/tile_mode = 0
 35/occluder_offset = Vector2( 16, 16 )
+35/occluder = SubResource( 76 )
 35/navigation_offset = Vector2( 16, 16 )
 35/shape_offset = Vector2( 16, 16 )
 35/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -843,6 +1584,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 77 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 35/z_index = 0
 36/name = "IndustrialTile37"
@@ -852,6 +1599,7 @@ extents = Vector2( 16.1333, 8.1 )
 36/region = Rect2( 0, 0, 32, 32 )
 36/tile_mode = 0
 36/occluder_offset = Vector2( 16, 16 )
+36/occluder = SubResource( 78 )
 36/navigation_offset = Vector2( 16, 16 )
 36/shape_offset = Vector2( 16, 16 )
 36/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -864,6 +1612,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 79 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 36/z_index = 0
 37/name = "IndustrialTile38"
@@ -873,6 +1627,7 @@ extents = Vector2( 16.1333, 8.1 )
 37/region = Rect2( 0, 0, 32, 32 )
 37/tile_mode = 0
 37/occluder_offset = Vector2( 16, 16 )
+37/occluder = SubResource( 80 )
 37/navigation_offset = Vector2( 16, 16 )
 37/shape_offset = Vector2( 16, 16 )
 37/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -885,6 +1640,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 81 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 37/z_index = 0
 38/name = "IndustrialTile39"
@@ -894,6 +1655,7 @@ extents = Vector2( 16.1333, 8.1 )
 38/region = Rect2( 0, 0, 32, 32 )
 38/tile_mode = 0
 38/occluder_offset = Vector2( 16, 16 )
+38/occluder = SubResource( 82 )
 38/navigation_offset = Vector2( 16, 16 )
 38/shape_offset = Vector2( 16, 16 )
 38/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -906,6 +1668,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 83 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 38/z_index = 0
 39/name = "IndustrialTile40"
@@ -915,6 +1683,7 @@ extents = Vector2( 16.1333, 8.1 )
 39/region = Rect2( 0, 0, 32, 32 )
 39/tile_mode = 0
 39/occluder_offset = Vector2( 16, 16 )
+39/occluder = SubResource( 84 )
 39/navigation_offset = Vector2( 16, 16 )
 39/shape_offset = Vector2( 16, 16 )
 39/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -927,6 +1696,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 85 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 39/z_index = 0
 40/name = "IndustrialTile41"
@@ -936,6 +1711,7 @@ extents = Vector2( 16.1333, 8.1 )
 40/region = Rect2( 0, 0, 32, 32 )
 40/tile_mode = 0
 40/occluder_offset = Vector2( 16, 16 )
+40/occluder = SubResource( 86 )
 40/navigation_offset = Vector2( 16, 16 )
 40/shape_offset = Vector2( 16, 16 )
 40/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -948,6 +1724,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 87 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 40/z_index = 0
 41/name = "IndustrialTile42"
@@ -957,6 +1739,7 @@ extents = Vector2( 16.1333, 8.1 )
 41/region = Rect2( 0, 0, 32, 32 )
 41/tile_mode = 0
 41/occluder_offset = Vector2( 16, 16 )
+41/occluder = SubResource( 88 )
 41/navigation_offset = Vector2( 16, 16 )
 41/shape_offset = Vector2( 16, 16 )
 41/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -969,6 +1752,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 89 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 41/z_index = 0
 42/name = "IndustrialTile43"
@@ -978,6 +1767,7 @@ extents = Vector2( 16.1333, 8.1 )
 42/region = Rect2( 0, 0, 32, 32 )
 42/tile_mode = 0
 42/occluder_offset = Vector2( 16, 16 )
+42/occluder = SubResource( 90 )
 42/navigation_offset = Vector2( 16, 16 )
 42/shape_offset = Vector2( 16, 16 )
 42/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -990,6 +1780,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 91 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 42/z_index = 0
 43/name = "IndustrialTile44"
@@ -999,6 +1795,7 @@ extents = Vector2( 16.1333, 8.1 )
 43/region = Rect2( 0, 0, 32, 32 )
 43/tile_mode = 0
 43/occluder_offset = Vector2( 16, 16 )
+43/occluder = SubResource( 92 )
 43/navigation_offset = Vector2( 16, 16 )
 43/shape_offset = Vector2( 16, 16 )
 43/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1011,6 +1808,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 93 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 43/z_index = 0
 44/name = "IndustrialTile45"
@@ -1020,6 +1823,7 @@ extents = Vector2( 16.1333, 8.1 )
 44/region = Rect2( 0, 0, 32, 32 )
 44/tile_mode = 0
 44/occluder_offset = Vector2( 16, 16 )
+44/occluder = SubResource( 94 )
 44/navigation_offset = Vector2( 16, 16 )
 44/shape_offset = Vector2( 16, 16 )
 44/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1032,6 +1836,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 95 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 44/z_index = 0
 45/name = "IndustrialTile46"
@@ -1041,6 +1851,7 @@ extents = Vector2( 16.1333, 8.1 )
 45/region = Rect2( 0, 0, 32, 32 )
 45/tile_mode = 0
 45/occluder_offset = Vector2( 16, 16 )
+45/occluder = SubResource( 96 )
 45/navigation_offset = Vector2( 16, 16 )
 45/shape_offset = Vector2( 16, 16 )
 45/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1053,6 +1864,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 97 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 45/z_index = 0
 46/name = "IndustrialTile47"
@@ -1062,6 +1879,7 @@ extents = Vector2( 16.1333, 8.1 )
 46/region = Rect2( 0, 0, 32, 32 )
 46/tile_mode = 0
 46/occluder_offset = Vector2( 16, 16 )
+46/occluder = SubResource( 98 )
 46/navigation_offset = Vector2( 16, 16 )
 46/shape_offset = Vector2( 16, 16 )
 46/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1074,6 +1892,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 99 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 46/z_index = 0
 47/name = "IndustrialTile48"
@@ -1083,6 +1907,7 @@ extents = Vector2( 16.1333, 8.1 )
 47/region = Rect2( 0, 0, 32, 32 )
 47/tile_mode = 0
 47/occluder_offset = Vector2( 16, 16 )
+47/occluder = SubResource( 100 )
 47/navigation_offset = Vector2( 16, 16 )
 47/shape_offset = Vector2( 16, 16 )
 47/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1095,6 +1920,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 101 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 47/z_index = 0
 48/name = "IndustrialTile49"
@@ -1104,6 +1935,7 @@ extents = Vector2( 16.1333, 8.1 )
 48/region = Rect2( 0, 0, 32, 32 )
 48/tile_mode = 0
 48/occluder_offset = Vector2( 16, 16 )
+48/occluder = SubResource( 102 )
 48/navigation_offset = Vector2( 16, 16 )
 48/shape_offset = Vector2( 16, 16 )
 48/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1116,6 +1948,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 103 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 48/z_index = 0
 49/name = "IndustrialTile50"
@@ -1125,6 +1963,7 @@ extents = Vector2( 16.1333, 8.1 )
 49/region = Rect2( 0, 0, 32, 32 )
 49/tile_mode = 0
 49/occluder_offset = Vector2( 16, 16 )
+49/occluder = SubResource( 104 )
 49/navigation_offset = Vector2( 16, 16 )
 49/shape_offset = Vector2( 16, 16 )
 49/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1137,6 +1976,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 105 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 49/z_index = 0
 50/name = "IndustrialTile51"
@@ -1146,6 +1991,7 @@ extents = Vector2( 16.1333, 8.1 )
 50/region = Rect2( 0, 0, 32, 32 )
 50/tile_mode = 0
 50/occluder_offset = Vector2( 16, 16 )
+50/occluder = SubResource( 106 )
 50/navigation_offset = Vector2( 16, 16 )
 50/shape_offset = Vector2( 16, 16 )
 50/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1158,6 +2004,18 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 107 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 108 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 50/z_index = 0
 51/name = "IndustrialTile52"
@@ -1167,6 +2025,7 @@ extents = Vector2( 16.1333, 8.1 )
 51/region = Rect2( 0, 0, 32, 32 )
 51/tile_mode = 0
 51/occluder_offset = Vector2( 16, 16 )
+51/occluder = SubResource( 109 )
 51/navigation_offset = Vector2( 16, 16 )
 51/shape_offset = Vector2( 16, 16 )
 51/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1179,6 +2038,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 110 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 51/z_index = 0
 52/name = "IndustrialTile53"
@@ -1188,6 +2053,7 @@ extents = Vector2( 16.1333, 8.1 )
 52/region = Rect2( 0, 0, 32, 32 )
 52/tile_mode = 0
 52/occluder_offset = Vector2( 16, 16 )
+52/occluder = SubResource( 111 )
 52/navigation_offset = Vector2( 16, 16 )
 52/shape_offset = Vector2( 16, 16 )
 52/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1200,6 +2066,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 112 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 52/z_index = 0
 53/name = "IndustrialTile54"
@@ -1209,6 +2081,7 @@ extents = Vector2( 16.1333, 8.1 )
 53/region = Rect2( 0, 0, 32, 32 )
 53/tile_mode = 0
 53/occluder_offset = Vector2( 16, 16 )
+53/occluder = SubResource( 113 )
 53/navigation_offset = Vector2( 16, 16 )
 53/shape_offset = Vector2( 16, 16 )
 53/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1221,6 +2094,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 114 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 53/z_index = 0
 54/name = "IndustrialTile55"
@@ -1230,6 +2109,7 @@ extents = Vector2( 16.1333, 8.1 )
 54/region = Rect2( 0, 0, 32, 32 )
 54/tile_mode = 0
 54/occluder_offset = Vector2( 16, 16 )
+54/occluder = SubResource( 115 )
 54/navigation_offset = Vector2( 16, 16 )
 54/shape_offset = Vector2( 16, 16 )
 54/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1242,6 +2122,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 116 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 54/z_index = 0
 55/name = "IndustrialTile56"
@@ -1251,6 +2137,7 @@ extents = Vector2( 16.1333, 8.1 )
 55/region = Rect2( 0, 0, 32, 32 )
 55/tile_mode = 0
 55/occluder_offset = Vector2( 16, 16 )
+55/occluder = SubResource( 117 )
 55/navigation_offset = Vector2( 16, 16 )
 55/shape_offset = Vector2( 16, 16 )
 55/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1263,6 +2150,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 118 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 55/z_index = 0
 56/name = "IndustrialTile57"
@@ -1272,6 +2165,7 @@ extents = Vector2( 16.1333, 8.1 )
 56/region = Rect2( 0, 0, 32, 32 )
 56/tile_mode = 0
 56/occluder_offset = Vector2( 16, 16 )
+56/occluder = SubResource( 119 )
 56/navigation_offset = Vector2( 16, 16 )
 56/shape_offset = Vector2( 16, 16 )
 56/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1284,6 +2178,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 120 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 56/z_index = 0
 57/name = "IndustrialTile58"
@@ -1293,6 +2193,7 @@ extents = Vector2( 16.1333, 8.1 )
 57/region = Rect2( 0, 0, 32, 32 )
 57/tile_mode = 0
 57/occluder_offset = Vector2( 16, 16 )
+57/occluder = SubResource( 121 )
 57/navigation_offset = Vector2( 16, 16 )
 57/shape_offset = Vector2( 16, 16 )
 57/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1305,6 +2206,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 122 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 57/z_index = 0
 58/name = "IndustrialTile59"
@@ -1314,6 +2221,7 @@ extents = Vector2( 16.1333, 8.1 )
 58/region = Rect2( 0, 0, 32, 32 )
 58/tile_mode = 0
 58/occluder_offset = Vector2( 16, 16 )
+58/occluder = SubResource( 123 )
 58/navigation_offset = Vector2( 16, 16 )
 58/shape_offset = Vector2( 16, 16 )
 58/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1326,6 +2234,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 124 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 58/z_index = 0
 59/name = "IndustrialTile60"
@@ -1335,6 +2249,7 @@ extents = Vector2( 16.1333, 8.1 )
 59/region = Rect2( 0, 0, 32, 32 )
 59/tile_mode = 0
 59/occluder_offset = Vector2( 16, 16 )
+59/occluder = SubResource( 125 )
 59/navigation_offset = Vector2( 16, 16 )
 59/shape_offset = Vector2( 16, 16 )
 59/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1347,6 +2262,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 126 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 59/z_index = 0
 60/name = "IndustrialTile61"
@@ -1356,6 +2277,7 @@ extents = Vector2( 16.1333, 8.1 )
 60/region = Rect2( 0, 0, 32, 32 )
 60/tile_mode = 0
 60/occluder_offset = Vector2( 16, 16 )
+60/occluder = SubResource( 127 )
 60/navigation_offset = Vector2( 16, 16 )
 60/shape_offset = Vector2( 16, 16 )
 60/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1368,6 +2290,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 128 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 60/z_index = 0
 61/name = "IndustrialTile62"
@@ -1377,6 +2305,7 @@ extents = Vector2( 16.1333, 8.1 )
 61/region = Rect2( 0, 0, 32, 32 )
 61/tile_mode = 0
 61/occluder_offset = Vector2( 16, 16 )
+61/occluder = SubResource( 129 )
 61/navigation_offset = Vector2( 16, 16 )
 61/shape_offset = Vector2( 16, 16 )
 61/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1389,6 +2318,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 130 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 61/z_index = 0
 62/name = "IndustrialTile63"
@@ -1398,6 +2333,7 @@ extents = Vector2( 16.1333, 8.1 )
 62/region = Rect2( 0, 0, 32, 32 )
 62/tile_mode = 0
 62/occluder_offset = Vector2( 16, 16 )
+62/occluder = SubResource( 131 )
 62/navigation_offset = Vector2( 16, 16 )
 62/shape_offset = Vector2( 16, 16 )
 62/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1410,6 +2346,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 132 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 62/z_index = 0
 63/name = "IndustrialTile64"
@@ -1419,6 +2361,7 @@ extents = Vector2( 16.1333, 8.1 )
 63/region = Rect2( 0, 0, 32, 32 )
 63/tile_mode = 0
 63/occluder_offset = Vector2( 16, 16 )
+63/occluder = SubResource( 133 )
 63/navigation_offset = Vector2( 16, 16 )
 63/shape_offset = Vector2( 16, 16 )
 63/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1431,6 +2374,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 134 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 63/z_index = 0
 64/name = "IndustrialTile65"
@@ -1440,6 +2389,7 @@ extents = Vector2( 16.1333, 8.1 )
 64/region = Rect2( 0, 0, 32, 32 )
 64/tile_mode = 0
 64/occluder_offset = Vector2( 16, 16 )
+64/occluder = SubResource( 135 )
 64/navigation_offset = Vector2( 16, 16 )
 64/shape_offset = Vector2( 16, 16 )
 64/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1452,6 +2402,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 136 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 64/z_index = 0
 65/name = "IndustrialTile66"
@@ -1461,6 +2417,7 @@ extents = Vector2( 16.1333, 8.1 )
 65/region = Rect2( 0, 0, 32, 32 )
 65/tile_mode = 0
 65/occluder_offset = Vector2( 16, 16 )
+65/occluder = SubResource( 137 )
 65/navigation_offset = Vector2( 16, 16 )
 65/shape_offset = Vector2( 16, 16 )
 65/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1473,6 +2430,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 138 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 65/z_index = 0
 66/name = "IndustrialTile67"
@@ -1482,6 +2445,7 @@ extents = Vector2( 16.1333, 8.1 )
 66/region = Rect2( 0, 0, 32, 32 )
 66/tile_mode = 0
 66/occluder_offset = Vector2( 16, 16 )
+66/occluder = SubResource( 139 )
 66/navigation_offset = Vector2( 16, 16 )
 66/shape_offset = Vector2( 16, 16 )
 66/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1494,6 +2458,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 140 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 66/z_index = 0
 67/name = "IndustrialTile68"
@@ -1503,6 +2473,7 @@ extents = Vector2( 16.1333, 8.1 )
 67/region = Rect2( 0, 0, 32, 32 )
 67/tile_mode = 0
 67/occluder_offset = Vector2( 16, 16 )
+67/occluder = SubResource( 141 )
 67/navigation_offset = Vector2( 16, 16 )
 67/shape_offset = Vector2( 16, 16 )
 67/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1515,6 +2486,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 142 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 67/z_index = 0
 68/name = "IndustrialTile69"
@@ -1524,6 +2501,7 @@ extents = Vector2( 16.1333, 8.1 )
 68/region = Rect2( 0, 0, 32, 32 )
 68/tile_mode = 0
 68/occluder_offset = Vector2( 16, 16 )
+68/occluder = SubResource( 143 )
 68/navigation_offset = Vector2( 16, 16 )
 68/shape_offset = Vector2( 16, 16 )
 68/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1536,6 +2514,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 144 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 68/z_index = 0
 69/name = "IndustrialTile70"
@@ -1545,6 +2529,7 @@ extents = Vector2( 16.1333, 8.1 )
 69/region = Rect2( 0, 0, 32, 32 )
 69/tile_mode = 0
 69/occluder_offset = Vector2( 16, 16 )
+69/occluder = SubResource( 145 )
 69/navigation_offset = Vector2( 16, 16 )
 69/shape_offset = Vector2( 16, 16 )
 69/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1557,6 +2542,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 146 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 69/z_index = 0
 70/name = "IndustrialTile71"
@@ -1566,6 +2557,7 @@ extents = Vector2( 16.1333, 8.1 )
 70/region = Rect2( 0, 0, 32, 32 )
 70/tile_mode = 0
 70/occluder_offset = Vector2( 16, 16 )
+70/occluder = SubResource( 147 )
 70/navigation_offset = Vector2( 16, 16 )
 70/shape_offset = Vector2( 16, 16 )
 70/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1578,6 +2570,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 148 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 70/z_index = 0
 71/name = "IndustrialTile72"
@@ -1587,6 +2585,7 @@ extents = Vector2( 16.1333, 8.1 )
 71/region = Rect2( 0, 0, 32, 32 )
 71/tile_mode = 0
 71/occluder_offset = Vector2( 16, 16 )
+71/occluder = SubResource( 149 )
 71/navigation_offset = Vector2( 16, 16 )
 71/shape_offset = Vector2( 16, 8 )
 71/shape_transform = Transform2D( 1, 0, 0, 1, 16, 8 )
@@ -1599,6 +2598,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 16, 8 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 150 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 71/z_index = 0
 72/name = "IndustrialTile73"
@@ -1608,6 +2613,7 @@ extents = Vector2( 16.1333, 8.1 )
 72/region = Rect2( 0, 0, 32, 32 )
 72/tile_mode = 0
 72/occluder_offset = Vector2( 16, 16 )
+72/occluder = SubResource( 151 )
 72/navigation_offset = Vector2( 16, 16 )
 72/shape_offset = Vector2( 16, 16 )
 72/shape_transform = Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
@@ -1620,6 +2626,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 2 ),
 "shape_transform": Transform2D( 0.5, 0, 0, 0.5, 16, 16 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 152 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 72/z_index = 0
 73/name = "IndustrialTile74"
@@ -1629,6 +2641,7 @@ extents = Vector2( 16.1333, 8.1 )
 73/region = Rect2( 0, 0, 32, 32 )
 73/tile_mode = 0
 73/occluder_offset = Vector2( 16, 16 )
+73/occluder = SubResource( 153 )
 73/navigation_offset = Vector2( 16, 16 )
 73/shape_offset = Vector2( 16, 8 )
 73/shape_transform = Transform2D( 1, 0, 0, 1, 16, 8 )
@@ -1641,6 +2654,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 16, 8 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 154 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 73/z_index = 0
 74/name = "IndustrialTile75"
@@ -1650,6 +2669,7 @@ extents = Vector2( 16.1333, 8.1 )
 74/region = Rect2( 0, 0, 32, 32 )
 74/tile_mode = 0
 74/occluder_offset = Vector2( 16, 16 )
+74/occluder = SubResource( 155 )
 74/navigation_offset = Vector2( 16, 16 )
 74/shape_offset = Vector2( 16, 8 )
 74/shape_transform = Transform2D( 1, 0, 0, 1, 16, 8 )
@@ -1662,6 +2682,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 16, 8 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 156 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 74/z_index = 0
 75/name = "IndustrialTile76"
@@ -1671,6 +2697,7 @@ extents = Vector2( 16.1333, 8.1 )
 75/region = Rect2( 0, 0, 32, 32 )
 75/tile_mode = 0
 75/occluder_offset = Vector2( 16, 16 )
+75/occluder = SubResource( 157 )
 75/navigation_offset = Vector2( 16, 16 )
 75/shape_offset = Vector2( 16, 8 )
 75/shape_transform = Transform2D( 1, 0, 0, 1, 16, 8 )
@@ -1683,6 +2710,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 16, 8 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 158 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 75/z_index = 0
 76/name = "IndustrialTile77"
@@ -1692,6 +2725,7 @@ extents = Vector2( 16.1333, 8.1 )
 76/region = Rect2( 0, 0, 32, 32 )
 76/tile_mode = 0
 76/occluder_offset = Vector2( 16, 16 )
+76/occluder = SubResource( 159 )
 76/navigation_offset = Vector2( 16, 16 )
 76/shape_offset = Vector2( 16, 8 )
 76/shape_transform = Transform2D( 1, 0, 0, 1, 16, 8 )
@@ -1704,6 +2738,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 16, 8 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 160 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 76/z_index = 0
 77/name = "IndustrialTile78"
@@ -1713,6 +2753,7 @@ extents = Vector2( 16.1333, 8.1 )
 77/region = Rect2( 0, 0, 32, 32 )
 77/tile_mode = 0
 77/occluder_offset = Vector2( 16, 16 )
+77/occluder = SubResource( 161 )
 77/navigation_offset = Vector2( 16, 16 )
 77/shape_offset = Vector2( 16, 8 )
 77/shape_transform = Transform2D( 1, 0, 0, 1, 16, 8 )
@@ -1725,6 +2766,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 16, 8 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 162 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 77/z_index = 0
 78/name = "IndustrialTile79"
@@ -1734,6 +2781,7 @@ extents = Vector2( 16.1333, 8.1 )
 78/region = Rect2( 0, 0, 32, 32 )
 78/tile_mode = 0
 78/occluder_offset = Vector2( 16, 16 )
+78/occluder = SubResource( 163 )
 78/navigation_offset = Vector2( 16, 16 )
 78/shape_offset = Vector2( 16, 8 )
 78/shape_transform = Transform2D( 1, 0, 0, 1, 16, 8 )
@@ -1746,6 +2794,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 16, 8 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 164 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 78/z_index = 0
 79/name = "IndustrialTile80"
@@ -1755,6 +2809,7 @@ extents = Vector2( 16.1333, 8.1 )
 79/region = Rect2( 0, 0, 32, 32 )
 79/tile_mode = 0
 79/occluder_offset = Vector2( 16, 16 )
+79/occluder = SubResource( 165 )
 79/navigation_offset = Vector2( 16, 16 )
 79/shape_offset = Vector2( 16, 8 )
 79/shape_transform = Transform2D( 1, 0, 0, 1, 16, 8 )
@@ -1767,6 +2822,12 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 16, 8 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 166 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 79/z_index = 0
 80/name = "IndustrialTile81"
@@ -1776,6 +2837,7 @@ extents = Vector2( 16.1333, 8.1 )
 80/region = Rect2( 0, 0, 32, 32 )
 80/tile_mode = 0
 80/occluder_offset = Vector2( 16, 16 )
+80/occluder = SubResource( 167 )
 80/navigation_offset = Vector2( 16, 16 )
 80/shape_offset = Vector2( 16, 7.46667 )
 80/shape_transform = Transform2D( 1, 0, 0, 1, 16, 7.46667 )
@@ -1788,5 +2850,47 @@ extents = Vector2( 16.1333, 8.1 )
 "one_way_margin": 1.0,
 "shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 16, 7.46667 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 168 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 80/z_index = 0
+81/name = "IndustrialTile_01.png 81"
+81/texture = ExtResource( 10 )
+81/tex_offset = Vector2( 0, 0 )
+81/modulate = Color( 1, 1, 1, 1 )
+81/region = Rect2( 0, 0, 32, 32 )
+81/tile_mode = 0
+81/occluder_offset = Vector2( 0, 0 )
+81/occluder = SubResource( 20 )
+81/navigation_offset = Vector2( 0, 0 )
+81/shape_offset = Vector2( 0, 0 )
+81/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+81/shape = SubResource( 21 )
+81/shape_one_way = false
+81/shape_one_way_margin = 1.0
+81/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 21 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+81/z_index = 0
+82/name = "IndustrialTile_03.png 82"
+82/texture = ExtResource( 9 )
+82/tex_offset = Vector2( 0, 0 )
+82/modulate = Color( 1, 1, 1, 1 )
+82/region = Rect2( 0, 0, 32, 32 )
+82/tile_mode = 0
+82/occluder_offset = Vector2( 0, 0 )
+82/navigation_offset = Vector2( 0, 0 )
+82/shape_offset = Vector2( 0, 0 )
+82/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+82/shape_one_way = false
+82/shape_one_way_margin = 0.0
+82/shapes = [  ]
+82/z_index = 0
