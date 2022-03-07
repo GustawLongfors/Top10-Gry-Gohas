@@ -3,6 +3,8 @@ extends KinematicBody2D
 signal life_changed
 signal dead
 
+const ChickenMissile = preload("res://character/Missile/Missile.tscn")
+
 export (int) var run_speed = 100
 export (int) var jump_speed = -125
 export (int) var gravity = -150
@@ -92,6 +94,7 @@ func get_input():
 		velocity.x = 0
 		change_state(IDLE)
 		$Sprite.play("Attack1")
+		spawn_Chicken()
 
 func _physics_process(delta):
 	get_input()
@@ -109,7 +112,7 @@ func _physics_process(delta):
 	if state == JUMP and is_on_floor():
 		change_state(IDLE)
 		$Particles.emitting = true
-	if position.y > 1000:
+	if position.y > 10000:
 		change_state(DEAD)
 func hurt():
 	if state != HURT:
@@ -119,7 +122,11 @@ func hurt():
 func _on_Timer_timeout():
 	get_tree().change_scene("res://Scenes/gamescene.tscn")
 
+func spawn_Chicken():
+	var Chicken = ChickenMissile.instance()
+	rotation = 0
+	Chicken.start($Position2D.global_position,rotation)
+	get_parent().add_child(Chicken)
 
 
-func _on_Sprite_animation_finished():
-	pass # Replace with function body.
+	
