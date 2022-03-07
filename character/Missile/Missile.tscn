@@ -69,7 +69,7 @@ region = Rect2( 48, 0, 48, 48 )
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ) ],
+"frames": [ null, SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ) ],
 "loop": false,
 "name": "Explode",
 "speed": 5.0
@@ -125,5 +125,9 @@ disabled = true
 [node name="WindupExploSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 5 )
 
+[node name="DelayTimer" type="Timer" parent="."]
+wait_time = 0.25
+
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
 [connection signal="body_entered" from="ExplosionRadius" to="." method="_on_ExplosionRadius_body_entered"]
+[connection signal="timeout" from="DelayTimer" to="." method="_on_DelayTimer_timeout"]
