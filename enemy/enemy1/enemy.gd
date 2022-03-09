@@ -19,7 +19,7 @@ func _physics_process(delta):
 			collision.collider.hurt()
 		if collision.normal.x != 0:
 			facing = sign(collision.normal.x)
-	if position.y > 1000:
+	if position.y > 10000:
 		queue_free()
 	
 func take_damage():
