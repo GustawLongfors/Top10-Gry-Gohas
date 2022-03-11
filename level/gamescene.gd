@@ -2,7 +2,7 @@ extends Node2D
 
 signal score_changed
 
-#onready var HUD = $CanvasLayer/HUD
+onready var HUD = $CanvasLayer/HUD
 var score
 
 func _ready():

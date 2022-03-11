@@ -20,6 +20,7 @@ var life = 3
 var max_jumps = 2
 var jump_count = 0
 
+var direction = Vector2.RIGHT	
 
 func _ready():
 	change_state(IDLE)
@@ -70,9 +71,11 @@ func get_input():
 	if right:
 		velocity.x += run_speed
 		$Sprite.flip_h = false
+		direction = Vector2.RIGHT
 	elif left:
 		velocity.x -= run_speed
 		$Sprite.flip_h = true
+		direction = Vector2.LEFT
 	if jump and state == JUMP and jump_count < max_jumps:
 		new_anim = 'Jump'
 		velocity.y = jump_speed / 1.5
@@ -116,15 +119,19 @@ func _physics_process(delta):
 		change_state(DEAD)
 func hurt():
 	if state != HURT:
-		$HurtSound.play()
+		#$HurtSound.play()
 		change_state(HURT)
 
 func _on_Timer_timeout():
-	get_tree().change_scene("res://Scenes/gamescene.tscn")
+	get_tree().change_scene("res://level/gamescene.tscn")
 
 func spawn_Chicken():
 	var Chicken = ChickenMissile.instance()
-	rotation = 0
+	var rotation
+	if direction == Vector2.LEFT:
+		rotation = -1
+	elif direction == Vector2.RIGHT:
+		rotation = 1
 	Chicken.start($Position2D.global_position,rotation)
 	get_parent().add_child(Chicken)
 
